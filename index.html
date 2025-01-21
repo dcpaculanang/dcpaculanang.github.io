@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<style>
+    body {
+    margin: 0;
+    padding: 0;
+    background: grey;
+}
+
+.navbar {
+    background: white;
+    overflow: hidden;
+}
+
+.home {
+    float: right;
+}
+
+li a{
+    float: left;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: grey;
+    color: white;
+}
+
+.navbar a.active {
+    background-color: black;
+    color: white;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+}
+
+</style>
+<body>
+    <div class="navbar">
+        <h1 clsass="home">Home Page</h1>
+        <li>
+            <ul><a class="active" href="#">Home</a></ul>
+            <ul><a href="pages/contact.html">Contact</a></ul>
+            <ul><a href="pages/portfolio.html">Portfolio</a></ul>
+            <ul><a href="pages/about.html">About</a></ul>
+        </li>
+    </div>
+
+    <img src="../images/monkey.jpg" alt="mokey">
+
+</body>
+</html>

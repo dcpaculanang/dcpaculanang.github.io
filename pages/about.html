@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<style>
+    body {
+    margin: 0;
+    padding: 0;
+    background: grey;
+}
+
+.navbar {
+    background: white;
+    overflow: hidden;
+}
+
+.home {
+    float: right;
+}
+
+li a{
+    float: left;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: gray;
+    color: white;
+}
+
+.navbar a.active {
+    background-color: black;
+    color: white;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+}
+
+</style>
+<body>
+    <div class="navbar">
+        <h1 clsass="home">About</h1>
+        <li>
+            <ul><a href="/index.html">Home</a></ul>
+            <ul><a href="contact.html">Contact</a></ul>
+            <ul><a href="portfolio.html">Portfolio</a></ul>
+            <ul><a class="active" href="#">About</a></ul>
+        </li>
+    </div>
+
+    <img src="../images/tom.jpg" alt="tom">
+
+</body>
+</html>
